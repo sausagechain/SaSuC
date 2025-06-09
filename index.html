@@ -25,12 +25,18 @@
       color: white;
       border: none;
       border-radius: 8px;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <img src="S__52895748.jpg" alt="SaSaC Banner">
+  <img src="S__52895749.jpg" alt="SaSaC Banner">
   <br>
-  <button onclick="window.location.href='https://sa-beta-jet.vercel.app'">進入 SaSaC 預測系統</button>
+  <button id="goButton">進入 SaSaC 預測系統</button>
+  <script>
+    document.getElementById('goButton').addEventListener('click', function() {
+      window.location.href = 'https://sa-beta-jet.vercel.app';
+    });
+  </script>
 </body>
 </html>
