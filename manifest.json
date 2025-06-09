@@ -1,6 +1,6 @@
 {
-  "name": "SaSaC 補貨預測入口",
-  "short_name": "SaSaC",
+  "name": "SaSaC V2 預測入口",
+  "short_name": "SaSaC V2",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -8,8 +8,8 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "64x64"
+      "sizes": "64x64",
+      "type": "image/x-icon"
     }
   ]
 }
